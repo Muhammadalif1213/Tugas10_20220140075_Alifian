@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #305db8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: montserrat;
+}
+
+p1{
+  font-size: 12px;
 }
 
 .App-link {
@@ -35,4 +40,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Instagram-logo {
+  height: 80px;
+  width: auto;
+  transition: transform 0.2s;
+}
+
+.Instagram-logo:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+.Registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Registration-form input {
+  padding: 10px;
+  margin: 5px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.Registration-form button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Registration-form button:hover {
+  background-color: #47a7f5;
 }
